@@ -6,7 +6,7 @@ export default function Card({
   name,
   price,
   image,
-  size = "",
+  size = "grid", // ✅ default to grid
   className = "",
 }) {
   // Define size-specific classes and configurations
@@ -18,27 +18,31 @@ export default function Card({
       priceTagClass: "lg:px-20 lg:pb-[35%]",
     },
     {
-       type: "large",
-        containerClass: "",
-        imageSizes: "(min-width: 768px) 33vw, 100vw",
-        priceTagClass: "",
-      },
+      type: "large",
+      containerClass: "",
+      imageSizes: "(min-width: 768px) 33vw, 100vw",
+      priceTagClass: "",
+    },
     {
       type: "carousel",
-        containerClass: "relative h-[250px] w-[400px] flex-none mr-3 list-none",
-        imageSizes: "(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw",
-        priceTagClass: "",
+      containerClass:
+        "relative h-[250px] w-[400px] flex-none mr-3 list-none",
+      imageSizes:
+        "(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw",
+      priceTagClass: "",
     },
     {
       type: "grid",
-        containerClass: "aspect-square transition-opacity animate-fadeIn",
-        imageSizes: "(min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw",
-        priceTagClass: "",
-      },
+      containerClass:
+        "aspect-square transition-opacity animate-fadeIn",
+      imageSizes:
+        "(min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw",
+      priceTagClass: "",
+    },
   ];
 
-  const set = sizeSet.find((s) => s.type === size);
-  // type === "hero"
+  // ✅ fallback to "grid" config if not found
+  const set = sizeSet.find((s) => s.type === size) || sizeSet.find((s) => s.type === "grid");
 
   const cardContent = (
     <div className="group flex h-full w-full items-center justify-center overflow-hidden rounded-lg border bg-black hover:border-blue-600 dark:bg-black relative border-neutral-600 dark:border-neutral-800">
@@ -57,7 +61,7 @@ export default function Card({
             {name}
           </h3>
           <p className="flex-none rounded-full bg-blue-600 p-2 text-white">
-            ${price.toFixed(2)}
+            ${price?.toFixed(2)}
             <span className="ml-1 hidden @[275px]/label:inline">USD</span>
           </p>
         </div>
