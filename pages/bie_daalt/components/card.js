@@ -6,7 +6,7 @@ export default function Card({
   name,
   price,
   image,
-  size = "grid",
+  size = "",
   className = "",
 }) {
   // Define size-specific classes and configurations

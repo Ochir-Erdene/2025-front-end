@@ -104,7 +104,6 @@ export default function Header() {
         {/* Mobile Menu Dropdown */}
         {isMenuOpen && (
           <div className="mt-4 flex flex-col gap-4 md:hidden">
-            <SearchButton />
             <nav className="flex flex-col gap-2 border-t border-neutral-200 pt-4 dark:border-neutral-700">
               {menuItems.map((item) => (
                 <a
