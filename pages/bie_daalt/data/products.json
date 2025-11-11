@@ -1,0 +1,172 @@
+{
+    "products": [
+      {
+        "id": "jpg-la-male",
+        "name": "Jean paul gaultier La Male Le Parfum",
+        "category": "la-male",
+        "price": 120.00,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "inStock": true,
+        "images": [
+          "/images/jpg/jpg-parfum.png",
+          "/images/jpg/jpg-parfum-2.png"
+        ],
+        "sizes": ["75ml", "125ml", "200ml"]
+      },
+      {
+        "id": "jpg-la-male-elixir",
+        "name": "Jean paul gaultier La Male Elixir",
+        "category": "la-male",
+        "price": 150.00,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "inStock": true,
+        "images": [
+          "/images/jpg/jpg-elixir.png",
+          "/images/jpg/jpg-elixir-2.png"
+        ],
+        "sizes": ["75ml", "125ml", "200ml"]
+      },
+      {
+        "id": "jpg-le-male-elixir-collector",
+        "name": "Jean paul gaultier Le  Male Elixir Collector",
+        "category": "la-male",
+        "price": 180.00,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "inStock": true,
+        "images": [
+          "/images/jpg/jpg-collector.png"
+        ],
+        "sizes": ["75ml", "125ml", "200ml"]
+      },
+      {
+        "id": "le-beau-flower",
+        "name": "Le Beau Flower Edition",
+        "category": "le-beau",
+        "price": 150.00,
+        "description": "Out of Stock",
+        "inStock": false,
+        "images": [
+          "/images/jpg/jpg-flower.png",
+          "/images/jpg/jpg-flower-2.png"
+        ],
+        "sizes": ["75ml", "125ml", "200ml"]
+      },
+      {
+        "id": "le-beau-paradise-garder",
+        "name": "Le Beau Paradise Garder",
+        "category": "le-beau",
+        "price": 130.00,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "inStock": true,
+        "images": [
+          "/images/jpg/jpg-paradise.png",
+          "/images/jpg/jpg-paradise-2.png"
+        ],
+        "sizes": ["75ml", "125ml"]
+      },
+      {
+        "id": "jpg-le-beau-le-parfum",
+        "name": "Jean paul gaultier Le Beau Le Parfum",
+        "category": "le-beau",
+        "price": 120.00,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "inStock": true,
+        "images": [
+          "/images/jpg/jpg-le-beau-le.png",
+          "/images/jpg/jpg-le-beau-le-2.png"
+        ],
+        "sizes": ["75ml", "125ml", "200ml"]
+      },
+      {
+        "id": "scandal-pour-homme",
+        "name": "Scandal Pour Homme Intense",
+        "category": "scandal",
+        "price": 160.00,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "inStock": true,
+        "images": [
+          "/images/jpg/scandal.png",
+          "/images/jpg/scandal-2.png"
+        ],
+        "sizes": ["50ml", "100ml", "150ml"]
+      },
+      {
+        "id": "scandal-pour-homme-absolu",
+        "name": "Scandal Pour Homme Absolu",
+        "category": "scandal",
+        "price": 170.00,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "images": [
+          "/images/jpg/scandal-absolu.png",
+          "/images/jpg/scandal-absolu-2.png"
+        ],
+        "sizes": ["50ml", "100ml", "150ml"]
+      },
+      {
+        "id": "gaultier-divine-elixir",
+        "name": "Gaultier Divine Elixir",
+        "category": "divine",
+        "price": 180.00,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "inStock": true,
+        "images": [
+          "/images/jpg/gaultier-divine-elixir.png",
+          "/images/jpg/gaultier-divine-elixir-2.png"
+        ],
+        "sizes": ["50ml", "100ml", "150ml"]
+      },
+      {
+        "id": "gaultier-divine-collector",
+        "name": "Gaultier Divine Collector",
+        "category": "divine",
+        "price": 200.00,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "inStock": true,
+        "images": [
+          "/images/jpg/gaultier-divine-collector.png",
+          "/images/jpg/gaultier-divine-collector-2.png"
+        ],
+        "sizes": ["50ml", "100ml", "150ml"]
+      },
+      {
+        "id": "gaultier-divine",
+        "name": "Gaultier Divine",
+        "category": "divine",
+        "price": 130.00,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "inStock": true,
+        "images": [
+          "/images/jpg/gaultier-divine.png",
+          "/images/jpg/gaultier-divine-2.png"
+        ],
+        "sizes": ["One Size"]
+      },
+      {
+        "id": "la-belle-flower",
+        "name": "La belle Flower Edition",
+        "category": "la-belle",
+        "price": 140.00,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "inStock": true,
+        "images": [
+          "/images/jpg/la-belle-flower.png",
+          "/images/jpg/la-belle-flower-2.png"
+        ],
+        "sizes": ["50ml", "100ml", "150ml"]
+      },
+      {
+        "id": "la-belle-paradise",
+        "name": "La belle Paradise Garden",
+        "category": "la-belle",
+        "price": 130.00,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "inStock": true,
+        "images": [
+          "/images/jpg/la-belle-paradise.png",
+          "/images/jpg/la-belle-paradise-2.png"
+        ],
+        "sizes": ["50ml", "100ml", "150ml"]
+      }
+    ]
+  }
+  
