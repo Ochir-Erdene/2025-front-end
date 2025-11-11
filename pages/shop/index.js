@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
-import Sidebar from "../components/sidebar";
-import Discounted from "../components/discounted";
-import Products from "../components/products";
+import Sidebar from "../shop/components/sidebar";
+import Discounted from "../shop/components/discounted";
+import Products from "../shop/components/products";
 
 
 
