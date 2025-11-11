@@ -10,32 +10,35 @@ export default function Card({
   className = "",
 }) {
   // Define size-specific classes and configurations
-  const sizeSet = {
-    hero: {
+  const sizeSet = [
+    {
+      type: "hero",
       containerClass: "",
       imageSizes: "(min-width: 768px) 66vw, 100vw",
       priceTagClass: "lg:px-20 lg:pb-[35%]",
     },
-    large: {
-      containerClass: "",
-      imageSizes: "(min-width: 768px) 33vw, 100vw",
-      priceTagClass: "",
+    {
+       type: "large",
+        containerClass: "",
+        imageSizes: "(min-width: 768px) 33vw, 100vw",
+        priceTagClass: "",
+      },
+    {
+      type: "carousel",
+        containerClass: "relative h-[250px] w-[400px] flex-none mr-3 list-none",
+        imageSizes: "(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw",
+        priceTagClass: "",
     },
-    carousel: {
-      containerClass:
-        "relative h-[250px] w-[400px] flex-none mr-3 list-none",
-      imageSizes: "(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw",
-      priceTagClass: "",
-    },
-    grid: {
-      containerClass: "aspect-square transition-opacity animate-fadeIn",
-      imageSizes:
-        "(min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw",
-      priceTagClass: "",
-    },
-  };
+    {
+      type: "grid",
+        containerClass: "aspect-square transition-opacity animate-fadeIn",
+        imageSizes: "(min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw",
+        priceTagClass: "",
+      },
+  ];
 
-  const set = sizeSet[size];
+  const set = sizeSet.find((s) => s.type === size);
+  // type === "hero"
 
   const cardContent = (
     <div className="group flex h-full w-full items-center justify-center overflow-hidden rounded-lg border bg-black hover:border-blue-600 dark:bg-black relative border-neutral-600 dark:border-neutral-800">
@@ -43,7 +46,6 @@ export default function Card({
         alt={name}
         src={image}
         fill
-        sizes={set.imageSizes}
         className="relative h-full w-full object-contain transition duration-300 ease-in-out group-hover:scale-105"
         priority={size === "hero"}
       />
